@@ -1,0 +1,69 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+	\usetheme{AnnArbor}
+}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[portuguese]{babel}
+\usepackage{multicol}
+
+\title[Título curto]{Título completo}
+\author[Guilherme]{Guilherme Fabrin Franco}
+\institute[PUCRS]
+{
+	Pontifícia Universidade Católica do Rio Grande do Sul \\
+	\medskip
+	\href{mailto:guilherme.fabrin@gmail.com}{guilherme.fabrin@gmail.com}
+	\linebreak % Your email address
+	\href{mailto:guilherme.franco93@edu.pucrs.br}{guilherme.franco93@edu.pucrs.br}
+}
+\date{\today}
+\logo{
+	\includegraphics[width=1.3cm]{images/pucrs.png}
+}
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Resumo}
+\tableofcontents
+\end{frame}
+
+\section{Seção 1}
+\begin{frame}
+	\frametitle{Texto seção 1}
+\end{frame}
+
+\subsection{Subseção 1.1}
+\begin{frame}
+	\frametitle{Texto subseção 1.1}
+\end{frame}
+
+\section{Seção 2}
+\begin{frame}
+	\frametitle{Texto seção 2}
+\end{frame}
+
+\subsection{Subseção 2.1}
+\begin{frame}
+	\frametitle{Texto subseção 2.1}
+\end{frame}
+
+\section{Referências}
+\begin{frame}[allowframebreaks]
+	\bibliographystyle{plain}
+	\bibliography{presentation.bib}
+\end{frame}
+
+\section{Conclusão}
+\begin{frame}
+	\centerline{Dúvidas?}
+	\centerline{Obrigado!}
+\end{frame}
+
+\end{document} 
